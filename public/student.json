@@ -1,0 +1,216 @@
+{
+  "priority_no": 1,
+  "student": {
+    "id": "STU10293",
+    "name": "Aryan Sharma",
+    "email": "aryan.sharma123@gmail.com",
+    "phone": "+91-9876543210",
+    "dob": "2002-04-20",
+    "gender": "Male",
+    "address": {
+      "house_no": "123",
+      "street": "Shiv Nagar",
+      "landmark": "Near City Hospital",
+      "city": "Chandigarh",
+      "state": "Punjab",
+      "pincode": "160017",
+      "country": "India"
+    }
+  },
+  "education": {
+    "class10": {
+      "board": "CBSE",
+      "school": "St. John's High School",
+      "year": 2018,
+      "percentage": 92.4
+    },
+    "class12": {
+      "board": "CBSE",
+      "school": "St. John's High School",
+      "year": 2020,
+      "percentage": 88.5
+    },
+    "graduation": {
+      "course": "BCA",
+      "university": "Panjab University",
+      "college": "DAV College, Chandigarh",
+      "year": 2023,
+      "cgpa": 8.4
+    },
+    "post_graduation": {
+      "status": "Pursuing",
+      "course": "MCA",
+      "university": "Kurukshetra University",
+      "college": "Govt. College Sector 1",
+      "year": "2023–2025",
+      "current_year": "1st Year"
+    }
+  },
+  "placement": {
+    "field_of_interest": "Frontend Development",
+    "desired_role": "React Developer / UI Engineer"
+  },
+  "technical_skills": {
+    "languages": ["JavaScript", "C++", "Java", "Python", "C"],
+    "frontend": ["HTML5", "CSS3", "Bootstrap", "JavaScript", "jQuery", "React.js", "Tailwind CSS", "GSAP"],
+    "backend": ["Node.js", "Express.js", "REST APIs"],
+    "database": ["MongoDB", "MySQL"],
+    "tools": ["Git", "GitHub", "Postman", "VS Code", "Linux CLI", "Docker"]
+  },
+  "projects": [
+    {
+      "title": "Smart Library System",
+      "description": "Library management portal with admin and student interface",
+      "technologies": ["Java Swing", "MySQL"],
+      "url": "https://github.com/aryan123/lib-system"
+    },
+    {
+      "title": "Portfolio Website",
+      "description": "Fully responsive personal portfolio",
+      "technologies": ["React", "Tailwind CSS"],
+      "url": "https://aryan-portfolio.vercel.app/"
+    },
+    {
+      "title": "Kick Hunt Game",
+      "description": "Multiplayer LAN-based Chat & Kickout Game",
+      "technologies": ["Node.js", "Socket.io"],
+      "url": "https://github.com/aryan123/kick-hunt"
+    },
+    {
+      "title": "Global Skills Course Website",
+      "description": "Online learning platform",
+      "technologies": ["React", "MongoDB", "Node.js"],
+      "url": "https://global-skills.vercel.app"
+    }
+  ],
+  "hobbies": [
+    "Competitive programming",
+    "UI/UX Designing",
+    "Watching Tech YouTube channels",
+    "Reading biographies",
+    "Public speaking and drama"
+  ],
+  "interview_history": [
+    {
+      "company": "Infosys",
+      "role": "System Engineer",
+      "date": "2024-01-15",
+      "status": "Rejected",
+      "stage": "HR Round"
+    },
+    {
+      "company": "Wipro",
+      "role": "Project Engineer",
+      "date": "2024-03-10",
+      "status": "Selected",
+      "stage": "Final Round"
+    },
+    {
+      "company": "TCS",
+      "role": "Ninja Developer",
+      "date": "2024-04-12",
+      "status": "Not Selected",
+      "stage": "Technical Round"
+    },
+    {
+      "company": "Mindtree",
+      "role": "Frontend Intern",
+      "date": "2024-06-05",
+      "status": "Selected",
+      "stage": "Final Round"
+    }
+  ],
+  "ratings": {
+    "self": {
+      "react": 4.5,
+      "dsa": 4.0,
+      "communication": 4.5,
+      "leadership": 4.0
+    },
+    "mentor": {
+      "react": 4.2,
+      "dsa": 3.8,
+      "communication": 4.7,
+      "leadership": 4.5
+    }
+  },
+  "achievements": [
+    {
+      "title": "Winner - College Hackathon 2023",
+      "description": "Built a full-stack project in 24 hours and secured 1st place among 30 teams.",
+      "date": "2023-02-18"
+    },
+    {
+      "title": "Best UI Design Award",
+      "description": "Awarded by MAIMT Tech Club for creative React-based interface.",
+      "date": "2023-09-10"
+    },
+    {
+      "title": "Top 10 Rank in Inter-College Coding Contest",
+      "description": "Competed with over 200 participants.",
+      "date": "2022-11-28"
+    }
+  ],
+  "certificates": [
+    {
+      "title": "React Bootcamp Certification",
+      "issuer": "CodeWithHarry",
+      "date": "2023-07-01",
+      "certificate_id": "REACT-HARRY-07123",
+      "url": "https://certificates.codewithharry.com/react-07123"
+    },
+    {
+      "title": "Java Programming",
+      "issuer": "Udemy",
+      "date": "2022-12-15",
+      "certificate_id": "UDEMY-JAVA-7890",
+      "url": "https://udemy.com/cert/java-7890"
+    },
+    {
+      "title": "MongoDB for Developers",
+      "issuer": "MongoDB University",
+      "date": "2023-10-20",
+      "certificate_id": "MONGO-DEV-0091",
+      "url": "https://university.mongodb.com/cert/0091"
+    }
+  ],
+  "experience": [
+    {
+      "type": "Internship",
+      "company": "Mindtree",
+      "role": "Frontend Intern",
+      "start_date": "2024-05-01",
+      "end_date": "2024-07-01",
+      "location": "Remote",
+      "description": "Worked on internal dashboard redesign using React and integrated REST APIs."
+    },
+    {
+      "type": "Freelance",
+      "company": "Freelancer (Upwork)",
+      "role": "React Developer",
+      "start_date": "2023-11-01",
+      "end_date": "2024-02-28",
+      "location": "Remote",
+      "description": "Delivered 3 responsive websites for international clients using MERN stack."
+    },
+    {
+      "type": "Part-time",
+      "company": "CodeMentor Club",
+      "role": "DSA Tutor",
+      "start_date": "2023-03-01",
+      "end_date": "2023-07-01",
+      "location": "Chandigarh",
+      "description": "Taught Data Structures & Algorithms to juniors weekly."
+    }
+  ],
+  "login": {
+    "username": "aryan.sharma123",
+    "password": "encrypted_password",
+    "resume_url": "#",
+    "certificates_uploaded": [
+      "Graduation Certificate",
+      "Java Course Certificate",
+      "React Bootcamp Certificate"
+    ]
+  }
+}
