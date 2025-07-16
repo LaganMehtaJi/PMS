@@ -1,11 +1,11 @@
-import React from 'react'
-
+import React from 'react';
+import Login from './component/Login'
  const index = () => {
   return (
  
     <>
-      {/* Mis Gaba Use This  */}
-       <h1 className='text-5xl'>Login</h1>
+    <Login/>
+      
     </>
   )
 }
