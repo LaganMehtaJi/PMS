@@ -17,18 +17,14 @@ function App() {
   return (
     <>
       <Routes>
-        <Route path='/Login'  element={<Login/>}/>
-        <Route path='/Signup'  element={<Signup/>}/>
-        <Route path='/Portfolio'  element={<Portfolio/>}/>
-        <Route path='/Dashboard'  element={<Dashboard/>}>
-         <Route index element={<DashboardContent />} />
         <Route path="education" element={<Education/>} />
         <Route path="skills" element={<Skills/>} />
         <Route path="projects" element={<Projects/>} />
         <Route path="interviews" element={<Interview/>} />
-
-          </Route>
-         
+          <Route path='/Login/:type'  element={<Login/>}/>
+           <Route path='/Signup'  element={<Signup/>}/>
+          <Route path='/Portfolio'  element={<Portfolio/>}/>
+          <Route path='/Dashboard'  element={<Dashboard/>}/>
       </Routes>
     </>
   )
