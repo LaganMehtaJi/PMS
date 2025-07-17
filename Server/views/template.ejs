@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Name Changer</title>
+  <script>
+    function updateName(va) {
+      const name = document.getElementById("nameInput").value;
+      document.getElementById("message").innerText = "Hello, " + name + "!";
+      console.log("Click");
+    }
+  </script>
+</head>
+<body style="font-family: Arial; text-align: center; margin-top: 50px;">
+  <h1 id="message">Hello, <%= name %>!</h1>
+
+  <input style="border: transparent ;" type="text" id="nameInput" value="<%= name %>" />
+  <button onclick="updateName()">Change Name</button>
+</body>
+</html>
